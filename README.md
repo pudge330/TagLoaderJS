@@ -3,7 +3,6 @@ Store and retrieve JSON data live within the document. Great for SPA (Single Pag
 
 * No Dependencies
 * Works with or without jQuery
-* Built-in caching
 * Simple and easy to use
 
 ## Getting Started
