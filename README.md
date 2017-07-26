@@ -16,4 +16,4 @@ Download and include `TagLoader.js` in your page.
 ## Functions
 
 **getJson(_elm)** - Gets json stored in document
-	* __ _elm __ - Element id (#myElement or myElement), an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object, or jQuery object.
+  * ___elm__ - Element id (#myElement or myElement), an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object, or jQuery object.
