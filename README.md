@@ -6,10 +6,14 @@ Store and retrieve JSON data live within the document. Great for SPA (Single Pag
 * Built-in caching
 * Simple and easy to use
 
-## How To Use
+## Getting Started
 Download and include `TagLoader.js` in your page.
 
 ```html
 <script src="/scripts/TagLoader.js" type="text/javascript"></script>
 ```
 
+## Functions
+
+**getJson(_elm)** - Gets json stored in document
+	* **_elm** - Element id, [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element), or jQuery object.
