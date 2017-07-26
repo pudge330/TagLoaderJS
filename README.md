@@ -20,7 +20,7 @@ Download and include `TagLoader.js` in your page.
 ```javascript
 //--by id
 //--if the element doesn't exists it'll be automatically created
-TagLoader.setJson('myElement', {name: "TagLoader"});
+TagLoader.setJson('myElement', {name: "TagLoader"}); //--or #myElement
 
 //--by Element
 //--Element is expected to be a script tag with type="application/json"
