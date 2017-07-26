@@ -44,6 +44,12 @@ console.log(TagLoader.getJson(document.getElementById('myElement')));
 console.log(TagLoader.getJson(jQuery('#myElement')));
 ```
 
+### Outputting JSON for use with TagLoader
+
+```html
+<script id="myElement" type="application/json"><!--{name:"TagLoader"}--></script>
+```
+
 ## Functions
 
 **getJson(_elm)** - Gets a value
