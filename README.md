@@ -13,7 +13,40 @@ Download and include `TagLoader.js` in your page.
 <script src="/scripts/TagLoader.js" type="text/javascript"></script>
 ```
 
-## Functions
+### Use
 
-**getJson(_elm)** - Gets json stored in document
+#### getJson(_elm, _obj)
+
+```javascript
+//--by id
+TagLoader.setJson('myElement', {name: "TagLoader"});
+
+//--by Element
+TagLoader.setJson(document.getElementById('myElement'), {name: "TagLoader"});
+
+//--by jQuery
+TagLoader.setJson(jQuery('#myElement'), {name: "TagLoader"});
+```
+
+
+### Functions
+
+**getJson(_elm)** - Gets a value
   * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+
+**setJson(_elm, _obj)** - Creates or updates a value
+  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___obj__ - Data to be stored as a JSON string
+
+**getText(_elm)** - Gets a value
+  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+
+**setText(_elm, _text)** - Creates or updates a value
+  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___text__ - Text to be stored in tag
+
+**applyWrap(_text)** - Applies html style comments to data, useful for older browsers
+  * ___text__ - Text to be wrapped
+
+**removeWrap(_text)** - Removes html style comments from data
+  * ___text__ - Text to be wrapped
