@@ -13,7 +13,7 @@ Download and include `TagLoader.js` in your page.
 <script src="/scripts/TagLoader.js" type="text/javascript"></script>
 ```
 
-### Use
+## Use
 
 #### getJson(_elm, _obj)
 
@@ -29,7 +29,7 @@ TagLoader.setJson(jQuery('#myElement'), {name: "TagLoader"});
 ```
 
 
-### Functions
+## Functions
 
 **getJson(_elm)** - Gets a value
   * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
