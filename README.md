@@ -7,7 +7,7 @@ Store and retrieve JSON data live within the current document. Great for SPA (Si
 * Simple and easy to use
 
 ## Getting Started
-Download and include `TagLoader.js` in your page.
+Download and include `TagLoader.min.js` in your page.
 
 ```html
 <script src="/scripts/TagLoader.min.js" type="text/javascript"></script>
