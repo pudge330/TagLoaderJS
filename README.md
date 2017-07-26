@@ -44,6 +44,7 @@ console.log(TagLoader.getJson(jQuery('#myElement')));
 ```
 
 ### Outputting JSON for use with TagLoader
+Format:
 
 ```html
 <script id="myElement" type="application/json"><!--{name:"TagLoader"}--></script>
