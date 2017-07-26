@@ -1,5 +1,5 @@
 # TagLoaderJS
-Store and retrieve JSON data live within the document. Great for SPA (Single Page Application) or short term caching.
+Store and retrieve JSON data live within the current document. Great for SPA (Single Page Application) or short term caching.
 
 * Only 1.25 kb
 * No Dependencies
