@@ -7,6 +7,7 @@ Store and retrieve JSON data live within the document. Great for SPA (Single Pag
 
 ## Getting Started
 Download and include `TagLoader.js` in your page.
+
 ```html
 <script src="/scripts/TagLoader.js" type="text/javascript"></script>
 ```
@@ -14,6 +15,7 @@ Download and include `TagLoader.js` in your page.
 ## Use
 
 #### TagLoader.setJson(_elm, _obj)
+
 ```javascript
 //--by id
 //--if the element doesn't exists it'll be automatically created
@@ -29,6 +31,7 @@ TagLoader.setJson(jQuery('#myElement'), {name: "TagLoader"});
 ```
 
 #### TagLoader.getJson(_elm)
+
 ```javascript
 //--by id
 console.log(TagLoader.getJson('myElement')); //--or #myElement
@@ -42,6 +45,7 @@ console.log(TagLoader.getJson(jQuery('#myElement')));
 
 ### Outputting JSON for use with TagLoader
 Format:
+
 ```html
 <script id="myElement" type="application/json"><!--{name:"TagLoader"}--></script>
 ```
