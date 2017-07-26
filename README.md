@@ -15,7 +15,7 @@ Download and include `TagLoader.js` in your page.
 
 ## Use
 
-#### TagLoader.getJson(_elm, _obj)
+#### TagLoader.setJson(_elm, _obj)
 
 ```javascript
 //--by id
@@ -31,6 +31,18 @@ TagLoader.setJson(document.getElementById('myElement'), {name: "TagLoader"});
 TagLoader.setJson(jQuery('#myElement'), {name: "TagLoader"});
 ```
 
+#### TagLoader.getJson(_elm)
+
+```javascript
+//--by id
+console.log(TagLoader.getJson('myElement')); //--or #myElement
+
+//--by Element
+console.log(TagLoader.getJson(document.getElementById('myElement')));
+
+//--by jQuery
+console.log(TagLoader.getJson(jQuery('#myElement')));
+```
 
 ## Functions
 
