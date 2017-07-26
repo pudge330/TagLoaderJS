@@ -79,4 +79,4 @@ Format:
 
 **window.isObject(val)** - Determines if value is object
 
-**JSON.safeParse(_json)** - Safe JSON.parse() alternative, falls back to `null` on error
+**JSON.safeParse(_json)** - Safe JSON.parse() alternative, returns `null` on error
