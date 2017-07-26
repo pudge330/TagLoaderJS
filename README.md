@@ -71,3 +71,11 @@ Format:
 
 **removeWrap(_text)** - Removes html style comments from data
   * ___text__ - Text to be wrapped
+
+## Polyfills
+
+**String.trim()** - Trims extra whitespace
+
+**Window.isObject(val)** - Determines if value is object
+
+**JSON.safeParse(_json)** - Safe JSON.parse() alternative, falls back to `null` on error
