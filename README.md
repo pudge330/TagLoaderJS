@@ -1,4 +1,7 @@
 # TagLoaderJS
-Store and retrieve json data stored live within the document. Built in cache and works with or without jQuery.
+Store and retrieve json data live within the document. Great for SPA (Single Page Application) or short term caching.
 
-\* No Dependencies
+* No Dependencies
+* Works with or without jQuery
+* Built-in caching
+* Simple and easy to use
