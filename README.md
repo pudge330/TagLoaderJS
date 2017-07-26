@@ -19,12 +19,15 @@ Download and include `TagLoader.js` in your page.
 
 ```javascript
 //--by id
+//--if the element doesn't exists it'll be automatically created
 TagLoader.setJson('myElement', {name: "TagLoader"});
 
 //--by Element
+//--Element is expected to be a script tag with type="application/json"
 TagLoader.setJson(document.getElementById('myElement'), {name: "TagLoader"});
 
 //--by jQuery
+//--the jQuery object is expected to be a script tag with type="application/json"
 TagLoader.setJson(jQuery('#myElement'), {name: "TagLoader"});
 ```
 
