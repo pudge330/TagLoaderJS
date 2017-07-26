@@ -15,7 +15,7 @@ Download and include `TagLoader.js` in your page.
 
 ## Use
 
-#### getJson(_elm, _obj)
+#### TagLoader.getJson(_elm, _obj)
 
 ```javascript
 //--by id
