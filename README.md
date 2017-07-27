@@ -54,17 +54,17 @@ Format:
 ## Functions
 
 **getJson(_elm)** - Gets a value
-  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a [jQuery](https://jquery.com/) object.
 
 **setJson(_elm, _obj)** - Creates or updates a value
-  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___elm__ - An element id (#myElement or myElement), a Element object or a jQuery object.
   * ___obj__ - Data to be stored as a JSON string
 
 **getText(_elm)** - Gets a value
-  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___elm__ - An element id (#myElement or myElement), a Element object or a jQuery object.
 
 **setText(_elm, _text)** - Creates or updates a value
-  * ___elm__ - An element id (#myElement or myElement), a [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object or a jQuery object.
+  * ___elm__ - An element id (#myElement or myElement), a Element object or a jQuery object.
   * ___text__ - Text to be stored in tag
 
 **applyWrap(_text)** - Applies html style comments to data, useful for older browsers
